@@ -4,7 +4,7 @@
  *
  * By:      Jackson Naufal
  * Version: 1.0
- * Since:   2020-09-30
+ * Since:   2020-10-17
  */
 
 // Imports
@@ -21,7 +21,11 @@ while (true) {
   if (userInput === -1) {
     break
   } else {
-    stackNum.Push(userInput)
+    if (userInput > 0) {
+      stackNum.Push(userInput)
+    } else {
+      console.log('Invalid Input, Not added to array!')
+    }
   }
 }
 
