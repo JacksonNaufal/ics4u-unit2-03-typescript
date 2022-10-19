@@ -1,72 +1,129 @@
 <mxfile host="65bd71144e">
     <diagram id="bVoswQC8T6PlKmy4Bn8u" name="Page-1">
-        <mxGraphModel dx="1074" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1953" dy="1362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="286" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="287" target="291">
+                <mxCell id="311" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="312" target="314">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="287" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="115" y="140" width="120" height="60" as="geometry"/>
+                <mxCell id="312" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="680" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="288" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="289" target="296">
+                <mxCell id="313" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="314" target="315">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="289" value="return medianCalc" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="303.5" y="775" width="140" height="50" as="geometry"/>
+                <mxCell id="314" value="return stackClass" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="760" width="140" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="290" style="edgeStyle=none;html=1;entryX=0.566;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="291" target="293">
+                <mxCell id="315" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" value="StackArray()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="360.5" y="650" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="318" target="340">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="291" value="get Integer[ ]&amp;nbsp;&lt;br&gt;arrayOfIntegers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="105" y="220" width="140" height="60" as="geometry"/>
+                <mxCell id="318" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="506.5" y="680" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="292" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="293" target="298">
+                <mxCell id="319" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="320" target="321">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="293" value="Get quantityMedian" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-                    <mxGeometry x="95" y="300" width="140" height="60" as="geometry"/>
+                <mxCell id="320" value="return this.stackClass.pop()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="479.75" y="915" width="173.5" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="296" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="313.5" y="840" width="120" height="60" as="geometry"/>
+                <mxCell id="321" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="506.5" y="990" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="308" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="298" target="301">
+                <mxCell id="322" value="Pop()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="546.5" y="650" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1240" y="700" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="326" target="330">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="298" value="medianCalc = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="107.5" y="380" width="115" height="60" as="geometry"/>
+                <mxCell id="326" value="Get pushedNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="780" width="140" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="299" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="301" target="304">
+                <mxCell id="327" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1240" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" value="Push()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1275" y="670" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="330" target="327">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="311" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="301" target="307">
+                <mxCell id="330" value="this.stackClass.push(pushedNum)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1205" y="840" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="332" target="347">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="866.13" y="688" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="334" target="335">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="return this,stackClass[this.stackClass.length-1]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="786.76" y="908" width="278.25" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="865.88" y="988" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="Peak()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="904.13" y="658" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="340" target="320">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="340" target="343">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="375" y="630"/>
+                            <mxPoint x="720" y="830"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="301" value="if quantity % 2 = 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="88.75" y="560" width="152.5" height="140" as="geometry"/>
+                <mxCell id="340" value="if (stackNum != 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="509.75" y="780" width="113.5" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="302" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="710" width="40" height="20" as="geometry"/>
+                <mxCell id="345" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="343" target="321">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="1020"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="310" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="304" target="289">
+                <mxCell id="343" value="return Nothing In Stack" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="920" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="347" target="334">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="304" value="medianCalc =&amp;nbsp;&lt;br&gt;arrayOfIntegers[(quantity - 1) / 2]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="73.75" y="767.5" width="182.5" height="65" as="geometry"/>
+                <mxCell id="354" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="347" target="353">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1135" y="828"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="305" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="316" y="610" width="30" height="20" as="geometry"/>
+                <mxCell id="347" value="if (stackNum != 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="869.13" y="778" width="113.5" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="306" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="307" target="289">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="355" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="353" target="335">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1135" y="1018"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="307" value="medianCalc =&amp;nbsp;&lt;br&gt;(arrayOfInteger[quantityMedian - 1) / 2] + arrayOfInteger[quantityMedian / 2]) / 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="259.5" y="660" width="230" height="80" as="geometry"/>
+                <mxCell id="353" value="return Nothing In Stack" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1065" y="913" width="140" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
