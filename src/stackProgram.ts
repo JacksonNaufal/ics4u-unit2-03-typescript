@@ -29,23 +29,31 @@ while (true) {
   }
 }
 
-// outputting information
-stackNum.StackArray()
+if (stackNum.StackArray().length !== 0) {
+  // outputting information
+  stackNum.StackArray()
 
-// space for visual affects
-console.log(' ')
-// outputs array
-console.log(stackNum.StackArray())
+  // space for visual affects
+  console.log(' ')
 
-// outputs number that was popped
-console.log(`Number removed is ${stackNum.Pop()}`)
+  // outputs array
+  console.log(stackNum.StackArray())
 
-// visual affects
-console.log('After Pop, your new array is: ')
-console.log('\nCalculating ...')
+  // outputs number that was popped
+  console.log(`Number removed is ${stackNum.Pop()}!`)
 
-// outputs array with popped number
-console.log(stackNum.StackArray())
+  // visual affects
+  console.log('After Pop, your new array is: ')
+  console.log('\nCalculating ...')
 
+  // outputs array with popped number
+  console.log(stackNum.StackArray())
+
+  // Peak in to the array
+  console.log('Peak into the array')
+  console.log(`The top number is ${stackNum.Peak()}!`)
+} else {
+  console.log('Nothing in stack')
+}
 // end of program
 console.log('\nDone!')
